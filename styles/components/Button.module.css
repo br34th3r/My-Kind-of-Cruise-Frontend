@@ -1,0 +1,16 @@
+.primaryButton {
+    background: #2767b0;
+    width: 60%;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    border-radius: 10px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.primaryButton:hover {
+    background: white;
+    color: #2767b0;
+    cursor: pointer;
+}

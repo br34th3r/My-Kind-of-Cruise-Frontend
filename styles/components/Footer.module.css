@@ -1,0 +1,60 @@
+.footer {
+    background: #2767b0;
+    width: 100vw;
+    color: white;
+    padding: 2rem;
+    display: inline-block;
+    position: static;
+}
+
+.leftFooter {
+    clear: left;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.rightFooter {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    float: right;
+    width: 35%;
+}
+
+.footerSection {
+    flex: 1;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.footerSection h3 {
+    white-space: nowrap;
+}
+
+.footerSection ul {
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 0;
+    line-height: 25px;
+}
+
+.footerTitleDivider {
+    height: 1px;
+    width: 50%;
+    margin-left: 0;
+}
+
+.partnerImagesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.partnerImage {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

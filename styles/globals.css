@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  color: #0F2743;
+  font-size: 3em;
+}
+
+h2 {
+  color: #0F2743;
+  font-size: 1.8em;
+}
