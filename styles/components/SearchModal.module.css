@@ -1,0 +1,88 @@
+.searchModal {
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    width: 80%;
+    height: 80%;
+    min-width: 200px;
+    min-height: 300px;
+    max-width: 500px;
+    max-height: 600px;
+    z-index: 3;
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modalContent form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent form label {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalContent form label input {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.modalOverlay {
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.modalButtons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalButtons > * {
+    margin: 5px;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 400px) {
+    .modalContent h2 {
+        font-size: 1.2em;
+    }
+
+    .modalContent form label {
+        font-size: 0.8em;
+    }
+
+    .modalContent form label input {
+        padding: 5px;
+    }
+
+    .modalContent button {
+        font-size: 1em;
+    }
+}

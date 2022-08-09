@@ -4,7 +4,7 @@
     height: 50px;
     border: none;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.2em;
     border-radius: 10px;
     transition: background 0.2s, color 0.2s;
 }
@@ -12,5 +12,22 @@
 .primaryButton:hover {
     background: white;
     color: #2767b0;
+    cursor: pointer;
+}
+
+.secondaryButton {
+    background: lightslategrey;
+    width: 60%;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.secondaryButton:hover {
+    background: white;
+    color: black;
     cursor: pointer;
 }

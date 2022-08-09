@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import Image from 'next/image'
 
 function PartnerImage({ className, src, alt }) {
@@ -6,6 +7,12 @@ function PartnerImage({ className, src, alt }) {
             <Image src={src} alt={alt} />
         </div>
     )
+}
+
+PartnerImage.propTypes = {
+    className: PropTypes.string,
+    src: PropTypes.object,
+    alt: PropTypes.string
 }
 
 export default PartnerImage;

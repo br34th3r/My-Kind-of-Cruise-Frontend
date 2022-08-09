@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: none;
+    border-radius: 20px;
+    overflow: hidden;
+    min-width: 250px;
+    min-height: 250px;
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.cardImageContainer {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.cardContent {
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    background: #2767b0;
+    color: white;
+}
+
+.cardContent h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0px;
+}
+
+.cardContent p {
+    font-size: 0.8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardContent span {
+    font-size: 1.2em;
+    font-weight: bold;
+}

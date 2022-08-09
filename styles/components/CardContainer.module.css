@@ -1,4 +1,10 @@
 .cardContainer {
     display: flex;
     flex-direction: row;
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+    background-color: #2767b0;
 }

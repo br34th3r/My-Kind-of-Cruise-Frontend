@@ -1,10 +1,11 @@
 .footer {
     background: #2767b0;
-    width: 100vw;
+    width: 100%;
     color: white;
     padding: 2rem;
-    display: inline-block;
-    position: static;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .leftFooter {
