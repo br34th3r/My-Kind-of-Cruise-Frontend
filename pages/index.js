@@ -24,7 +24,7 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_BACKEND_HOST}:${process.env.NEXT_PUBLIC_BACKEND_PORT}/cruises/allCruises`)
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_HOST}/cruises/allCruises`)
       .then((res) => res.json())
       .then((json) => {
         setData(json);
