@@ -28,6 +28,7 @@ export default function Home() {
       .then((res) => res.json())
       .then((json) => {
         setData(json);
+		console.log(json);
         setError(null);
       })
       .catch((err) => {
