@@ -8,6 +8,8 @@
     overflow: hidden;
     min-width: 250px;
     min-height: 250px;
+    max-height: 500px;
+    max-width: 500px;
     transform: scale(1);
     transition: transform 0.4s;
 }

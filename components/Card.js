@@ -7,7 +7,7 @@ function Card({ src, alt, children }) {
     return (
         <div className={styles.card}>
             <div className={styles.cardImageContainer}>
-                <Image src={src} alt={alt} layout="fill" />
+                <img src={src} alt={alt} />
             </div>
             <div className={styles.cardContent}>
                 {children}
